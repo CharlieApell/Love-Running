@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap') 
 
 * {
     margin: 0;
@@ -7,7 +7,33 @@
 }
 
 body {
-    font-family: 'Lato';
+    font-family: Bebas Neue, Arial;
+    font-family: Lato, Arial;
     font-weight: 300;
 }
 
+/* Headings and logo */
+
+h1, h2 {
+    font-family: Latos, Arial;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+/* menus and nav-links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
